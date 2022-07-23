@@ -1,0 +1,13 @@
+button {
+  background-color: white;
+  color: green;
+  border: 1px solid blue;
+  & > span {
+    // button 안에 있는 모든 태그의 텍스트는 모두 오른쪽에 밀어 넣는다.
+    color: red;
+  }
+}
+
+button.blue {
+  color: blue;
+}
